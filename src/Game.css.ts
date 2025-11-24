@@ -166,7 +166,8 @@ export const statBox = style({
   flexDirection: 'column',
   alignItems: 'center',
   gap: '8px',
-  minWidth: '160px',
+  minWidth: '200px',
+  width: '200px',
 });
 
 export const statLabel = style({
@@ -181,6 +182,10 @@ export const statValue = style({
   fontSize: '1.8rem',
   fontWeight: 'bold',
   color: '#333',
+  fontFamily: 'monospace',
+  minWidth: '140px',
+  textAlign: 'center',
+  whiteSpace: 'nowrap',
 });
 
 // Finish Screen Styles

@@ -235,7 +235,7 @@ const Game: React.FC = () => {
         <div className={styles.statBox}>
           <span className={styles.statLabel}>Time</span>
           <span className={styles.statValue}>
-            {hasStartedTimer ? formatTime(elapsedTime) : 'Click to start!'}
+            {hasStartedTimer ? formatTime(elapsedTime) : '0:00.00'}
           </span>
         </div>
       </div>
