@@ -1,13 +1,17 @@
-# Drag & Drop Game
+# Whack-a-Mole
 
-A simple and fun drag-and-drop game built with React, TypeScript, and Vanilla Extract.
+A fun drag-and-drop whack-a-mole game built with React, TypeScript, and Vanilla Extract.
 
 ## Features
 
-- 🎮 Drag the letter **A** to the letter **M** to score points
-- 🎯 Random positioning of letters on each round
-- 📊 Score tracking
+- 🎮 Drag the **mallet** to whack the **mole** and score points
+- 🎯 Random positioning of mole and mallet on each round
+- ⏱️ **Timer system** - tracks how fast you can reach your goal
+- 🎚️ **Multiple game modes** - Choose 10, 25, or 50 as your target score
+- 📊 Score tracking and performance stats
+- 🏆 Completion screen with your final time
 - 🎨 Styled with Vanilla Extract CSS-in-TS
+- 🖼️ Custom SVG graphics
 
 ## Tech Stack
 
@@ -46,19 +50,23 @@ npm run preview
 
 ## How to Play
 
-1. The game canvas displays two letters: **A** (green) and **M** (blue)
-2. Click and drag the **A** to the **M**
-3. When **A** gets close enough to **M**, you score a point!
-4. The letters will reset to new random positions
-5. Repeat and watch your score grow!
+1. **Choose your target score**: Select 10, 25, or 50 moles to whack
+2. The game canvas displays a **mallet** and a **mole**
+3. **Click and drag** the mallet to the mole to start the timer
+4. When the mallet gets close enough to whack the mole, you score a point!
+5. The mallet and mole will reset to new random positions
+6. Race against the clock to reach your target score
+7. View your final time and stats when you complete the game!
 
 ## Future Enhancements
 
-- ⏱️ Timer to make it more competitive
-- 🏆 Leaderboard system
-- 🎵 Sound effects
-- 💥 Visual effects on successful drops
-- 📱 Mobile/touch support
-- 🎨 Customizable themes
+- 🏆 Leaderboard system (local & global)
+- 📊 High score persistence (localStorage/database)
+- 🎵 Sound effects on whack
+- 💥 Particle effects on successful whacks
+- 📱 Touch support for mobile devices
+- 🎨 Multiple difficulty levels (faster mole movement)
+- ⏳ Countdown mode (score as many as possible in X seconds)
+- 🌙 Dark mode theme
 
 
